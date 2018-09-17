@@ -53,7 +53,6 @@ class App extends React.Component {
 
         <div>
         {records && records.length > 0 ? records.map(record =>
-          <p>Aristotle vs Plato</p>
           <p>Hello {JSON.stringify(record['fields']['Patient Name'])}</p>
         ) : <p>Double-check that you have added your API key to .env.</p>}
         </div>
