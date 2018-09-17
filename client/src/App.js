@@ -6,7 +6,7 @@ const config = {
   table: "BiographicalInformation",
   view: "Main View",
   apiKey: "keyShfmLLFP9GB6ck",
-  maxRecords: 2
+  maxRecords: 1
 }
 
 console.log(config);
